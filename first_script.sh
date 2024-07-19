@@ -1,4 +1,3 @@
-sysop@sysadmin03:~/assignments/scripting$ cat ./simple_shell.sh
 #!/bin/bash
 
 fn=$(ls -lh | awk '{print $9}')
